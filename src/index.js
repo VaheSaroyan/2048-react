@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Container from './container';
+import './main.scss'
+//
+//
+// ReactDOM.render(
+//   <React.StrictMode>
+//
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+//
+//
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+require('./game_manager');
+require('./keyboard_input_manager');
+require('./html_actuator');
+ require('./local_storage_manager');
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// // // Wait till the browser is ready to render the game (avoids glitches)
+// window.requestAnimationFrame(function () {
+ ReactDOM.render(<React.StrictMode><Container size="4" startTiles="2" /></React.StrictMode>, document.getElementById('root'));
+//     // new GameManager(4, KeyboardInputManager, HTMLActuator, LocalStorageManager);
+// });
+
