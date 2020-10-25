@@ -1,39 +1,11 @@
 function HTMLActuator() {
-  this.tileContainer    = document.querySelector(".tile-container");
-  this.scoreContainer   = document.querySelector(".score-container");
-  this.bestContainer    = document.querySelector(".best-container");
+  this.tileContainer = document.querySelector(".tile-container");
+  this.scoreContainer = document.querySelector(".score-container");
+  this.bestContainer = document.querySelector(".best-container");
   this.messageContainer = document.querySelector(".game-message");
 
   this.score = 0;
 }
-
-HTMLActuator.prototype.actuate = function (grid, metadata) {
-  var self = this;
-
-  window.requestAnimationFrame(function () {
-    // self.clearContainer(self.tileContainer);
-    //
-    // grid.cells.forEach(function (column) {
-    //   column.forEach(function (cell) {
-    //     if (cell) {
-    //       self.addTile(cell);
-    //     }
-    //   });
-    // });
-    //
-    // self.updateScore(metadata.score);
-    // self.updateBestScore(metadata.bestScore);
-    //
-    // if (metadata.terminated) {
-    //   if (metadata.over) {
-    //     self.message(false); // You lose
-    //   } else if (metadata.won) {
-    //     self.message(true); // You win!
-    //   }
-    // }
-
-  });
-};
 
 // Continues the game (both restart and keep playing)
 HTMLActuator.prototype.continueGame = function () {
@@ -49,9 +21,9 @@ HTMLActuator.prototype.clearContainer = function (container) {
 HTMLActuator.prototype.addTile = function (tile) {
   var self = this;
 
-  var wrapper   = document.createElement("div");
-  var inner     = document.createElement("div");
-  var position  = tile.previousPosition || { x: tile.x, y: tile.y };
+  var wrapper = document.createElement("div");
+  var inner = document.createElement("div");
+  var position = tile.previousPosition || { x: tile.x, y: tile.y };
   var positionClass = this.positionClass(position);
 
   // We can't use classlist because it somehow glitches when replacing classes
@@ -125,7 +97,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 };
 
 HTMLActuator.prototype.message = function (won) {
-  var type    = won ? "game-won" : "game-over";
+  var type = won ? "game-won" : "game-over";
   var message = won ? "You win!" : "Game over!";
 
   this.messageContainer.classList.add(type);

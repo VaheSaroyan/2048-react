@@ -2,15 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbb13ff3-0658-4fdf-9df5-6613a1fd972f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AboveGame/AboveGame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AboveGame/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameContainer/GameContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameContainer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GridCell/GridCell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GridCell/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GridContainer/GridContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GridContainer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GridRow/GridRow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GridRow/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Heading/Heading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Heading/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tile/Tile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tile/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TileContainer/TileContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TileContainer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/above-game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animframe_polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bind_polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlist_polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game-container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game_manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/game_manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grid-cell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grid-container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grid-row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/grid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html_actuator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_actuator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/reportWebVitals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/keyboard_input_manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/keyboard_input_manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/local_storage_manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/local_storage_manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile-container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +56,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jJrZkWNFH6Ox9P5QT6blhlGzK6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,12 +76,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Vahe\WebstormProjects\2048-react\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vahe\WebstormProjects\2048-react\src\components" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vahe\WebstormProjects\2048-react\src\managers" />
       <recent name="$PROJECT_DIR$/src/old" />
     </key>
   </component>
@@ -88,5 +128,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
